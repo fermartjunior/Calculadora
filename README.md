@@ -7,4 +7,4 @@ Esse é um projeto de uma calculadora que fiz para estudos.
 --CSS
 --JavaScript
 
-## Como rodar o projeto
+
