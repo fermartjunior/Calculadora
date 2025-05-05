@@ -43,8 +43,8 @@ h1 {
 
 .box-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat (4 1fr);
+    grid-template-rows: repeat (4 1fr);
     gap: 10px;
 }
 
@@ -54,7 +54,7 @@ button {
     border-radius:6px;
     font-size: 30px;
     cursor: pointer;
-    box-shadow: 5px 5px 10px black;
+    
 }
 
 button:active {
@@ -62,8 +62,7 @@ button:active {
 }
 
 button:hover {
-    transform: scale(1.1);
-    border: solid 2px rgb(51, 252, 51);
+    box-shadow: 3px 3px 3px 3px black;  
 }
 
 .btn-c {
